@@ -1,6 +1,7 @@
 from fastmcp import FastMCP
 from starlette.responses import JSONResponse
 
+# create an mcp object
 mcp = FastMCP()
 
 @mcp.tool
